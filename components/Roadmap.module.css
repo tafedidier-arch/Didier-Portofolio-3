@@ -1,0 +1,14 @@
+.roadmap { background: var(--navy2); padding: 6rem 5vw; }
+.h2 { font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 3rem); font-weight: 300; color: var(--white); margin-bottom: 3rem; line-height: 1.2; }
+.h2 em { color: var(--gold); font-style: normal; font-weight: 600; }
+.timeline { position: relative; max-width: 800px; }
+.timeline::before { content: ''; position: absolute; left: 20px; top: 8px; bottom: 0; width: 1px; background: var(--border); }
+.item { display: flex; gap: 2rem; margin-bottom: 3rem; position: relative; }
+.dot { width: 40px; height: 40px; flex-shrink: 0; background: var(--navy3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-family: var(--font-serif); font-size: 0.9rem; font-weight: 600; color: var(--gold); position: relative; z-index: 1; }
+.active .dot { background: var(--gold); color: var(--navy); border-color: var(--gold); }
+.content { flex: 1; padding-top: 0.4rem; }
+.period { font-size: 0.67rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.3rem; }
+.title { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 600; color: var(--white); margin-bottom: 0.4rem; }
+.desc { font-size: 0.88rem; color: var(--muted); margin-bottom: 0.75rem; }
+.tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tag { font-size: 0.62rem; letter-spacing: 0.06em; padding: 0.18rem 0.55rem; background: var(--gold-dim); color: var(--gold); border: 1px solid rgba(201,162,39,0.25); }

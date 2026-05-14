@@ -1,0 +1,8 @@
+.contact { background: var(--navy2); padding: 6rem 5vw; text-align: center; }
+.h2 { font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 3rem); font-weight: 300; color: var(--white); margin-bottom: 0; line-height: 1.2; text-align: center; }
+.h2 em { color: var(--gold); font-style: normal; font-weight: 600; }
+.sub { color: var(--muted); max-width: 500px; margin: 1.5rem auto 3rem; font-size: 0.95rem; }
+.links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+.link { display: flex; align-items: center; gap: 0.6rem; padding: 0.85rem 1.75rem; background: var(--navy3); border: 1px solid var(--border); color: var(--white); text-decoration: none; font-size: 0.85rem; font-weight: 500; transition: border-color 0.2s, color 0.2s; }
+.link:hover { border-color: var(--gold); color: var(--gold); }
+.icon { font-weight: 700; font-size: 1rem; }

@@ -1,0 +1,11 @@
+.projects { background: var(--navy); padding: 6rem 5vw; }
+.h2 { font-family: var(--font-serif); font-size: clamp(2rem, 4vw, 3rem); font-weight: 300; color: var(--white); margin-bottom: 3rem; line-height: 1.2; }
+.h2 em { color: var(--gold); font-style: normal; font-weight: 600; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 1.5rem; }
+.card { background: var(--navy2); border: 1px solid var(--border); padding: 2rem; position: relative; overflow: hidden; transition: border-color 0.2s, transform 0.2s; }
+.card:hover { border-color: var(--gold); transform: translateY(-4px); }
+.num { font-family: var(--font-serif); font-size: 3rem; font-weight: 700; color: rgba(201,162,39,0.08); position: absolute; top: 1rem; right: 1.5rem; line-height: 1; }
+.title { font-family: var(--font-serif); font-size: 1.2rem; font-weight: 600; color: var(--white); margin: 0.75rem 0 0.5rem; }
+.desc { font-size: 0.83rem; color: var(--muted); margin-bottom: 1.25rem; line-height: 1.65; }
+.tools { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tool { font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.18rem 0.5rem; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.1); color: var(--muted); }
