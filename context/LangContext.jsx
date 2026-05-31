@@ -96,7 +96,7 @@ export const translations = {
           tags: ["Finance digitale", "TIC", "Agriculture", "Faisabilité"],
         },
         {
-          period: "2020 – 2022", company: "DBS Sarl", role: "Chef de projet – Études télécoms", location: "Yaoundé, Cameroun",
+          period: "2020 – 2022", company: "DBS Sarl", role: "Chef de projet Junior – Études télécoms", location: "Yaoundé, Cameroun",
           tasks: [
             "Étude sur la taille critique des Licences de Première Catégorie (ART)",
             "Analyse du marché des communications électroniques au Cameroun",
@@ -301,7 +301,7 @@ export const translations = {
           tags: ["Digital Finance", "ICT", "Agriculture", "Feasibility"],
         },
         {
-          period: "2020 – 2022", company: "DBS Sarl", role: "Project Manager – Telecom Studies", location: "Yaoundé, Cameroon",
+          period: "2020 – 2022", company: "DBS Sarl", role: "Junior Project Manager – Telecom Studies", location: "Yaoundé, Cameroon",
           tasks: [
             "Study on critical size of Category 1 Licenses (ART Cameroon)",
             "Electronic communications market analysis",
