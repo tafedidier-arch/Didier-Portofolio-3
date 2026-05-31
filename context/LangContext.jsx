@@ -24,7 +24,7 @@ export const translations = {
       p1: ["Je m'appelle ", "Didier Romuald TAFE", ". Titulaire d'un Master en Management des Systèmes d'Information, je suis un Chef de Projet avec plus de 6 ans d'expérience dans les télécommunications, la finance digitale et le déploiement de projets IT."],
       p2: ["Basé à Val-d'Or, Québec, je construis mon profil canadien en combinant mon expérience terrain avec des certifications reconnues comme ", "PSM I (Scrum)", " et le ", "PMP (PMI)", " pour m'imposer sur le marché local."],
       p3: ["Ce portfolio est un ", "document vivant", " — chaque compétence acquise, chaque projet livré, chaque certification obtenue y est documenté en temps réel."],
-      p4: ["Mon objectif : que ", "mes compétences parlent plus fort que ma géographie", "."],
+      p4: ["De la stratégie à l'exécution : ", "je transforme les idées en résultats concrets.", "."],
       cardTitle: "Informations personnelles",
       rows: [
         ["Nom complet", "Didier Romuald TAFE"],
